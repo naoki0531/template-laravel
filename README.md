@@ -4,7 +4,7 @@ $ git clone https://github.com/naoki0531/template-laravel.git
 $ cd template-laravel
 $ git submodule init
 $ git submodule update
-$ git submodule add {source repository} src
+$ git clone {source repository} src
 $ cp src/.env.example .env
 $ cp .env.laradock laradock/.env
 $ cd laradock
