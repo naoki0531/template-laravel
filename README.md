@@ -5,6 +5,7 @@ $ cd template-laravel
 $ git submodule init
 $ git submodule update
 $ git submodule add {source repository} src
+$ cp src/.env.example .env
 $ cp .env.laradock laradock/.env
 $ cd laradock
 $ docker-compose up -d --build nginx mysql workspace
